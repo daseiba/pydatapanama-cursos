@@ -1,19 +1,16 @@
-name: pyda-py311
+name: mi_entorno
 channels:
   - defaults
-  - conda-forge
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.11
-  - ipykernel
-  - ipywidgets
+  - python=3.13
+  - pathlib
+  - xlrd
+  - seaborn
+  - pandas
   - jupyterlab
   - matplotlib
-  - numpy
   - openpyxl
-  - pandas
-  - pathlib
-  - seaborn
-  - xlrd
-prefix: /Users/jasonssdev/opt/anaconda3/envs/pyda-py311
+  - numpy
+  - ipykernel
+  - ipywidgets
+prefix: C:\Users\migue\anaconda3\envs\mi_entorno
